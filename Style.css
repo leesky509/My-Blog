@@ -1,3 +1,9 @@
+body{
+  margin: 0;
+}
+a {
+  text-decoration-line: none;
+}
 h1 {
   text-align: center;
   font-size: 50px;
@@ -5,4 +11,31 @@ h1 {
   padding-top: 30px;
   padding-bottom: 30px;
   color: black;
+}
+button {
+  background-color: white;
+  color: skyblue;
+  border-color: skyblue;
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+  margin: 0px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  background-color: rgb(89, 147, 255, 1);
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  height: 40px;
+  border-bottom: 1px solid gray;
 }
