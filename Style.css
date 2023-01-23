@@ -1,5 +1,29 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, var, u, i,
-center, ol, ul, li, aside, footer, header, menu, nav, section {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+strong,
+var,
+u,
+i,
+center,
+ol,
+ul,
+li,
+aside,
+footer,
+header,
+menu,
+section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -70,5 +94,9 @@ li {
   color: white;
 }
 .catelist {
-    display: flex;
+  display: flex;
+  height: 40px;
+  border-bottom: gray 2px solid;
+  width: 70%;
+  align-items: center;
 }
