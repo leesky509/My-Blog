@@ -60,6 +60,7 @@ nav {
 main {
   border: 1px solid gray;
   flex: 1;
+  padding: 10px;
 }
 aside {
   border: 1px solid gray;
@@ -99,4 +100,7 @@ li {
   border-bottom: gray 2px solid;
   width: 70%;
   align-items: center;
+}
+.catelistColor {
+  color: black;
 }
