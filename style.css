@@ -34,6 +34,7 @@ section {
 .container {
   height: 100vh;
 }
+
 header {
   display: flex;
   justify-content: center;
@@ -41,6 +42,7 @@ header {
   border: 1px solid gray;
   height: 180px;
 }
+
 menu {
   display: flex;
   justify-content: center;
@@ -49,51 +51,73 @@ menu {
   height: 50px;
   background-color: black;
 }
+
 section {
   display: flex;
   height: 100vh;
 }
+
 nav {
   border: 1px solid gray;
   flex-basis: 200px;
 }
+
 main {
   border: 1px solid gray;
   flex: 1;
-  padding: 10px;
+  padding: 20px;
 }
+
 aside {
   border: 1px solid gray;
   flex-basis: 170px;
 }
+
 footer {
   border: 1px solid gray;
   height: 180px;
 }
+
 h1 {
   font-size: 50px;
 }
+
+h2 {
+  font-size: 20px;
+  padding: 30px;
+}
+
+h3 {
+  padding: 30px;
+}
+
 a {
   text-decoration-line: none;
 }
+
 .web {
   color: black;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 li {
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .mainTitle {
   color: black;
 }
+
 .menusColor {
   color: white;
 }
+
 .catelist {
   display: flex;
   height: 40px;
@@ -101,6 +125,7 @@ li {
   width: 70%;
   align-items: center;
 }
+
 .catelistColor {
   color: black;
 }
