@@ -4,10 +4,10 @@ function menusHandler() {
   for (var i = 0; i < menus.length; i++) {
     document.write(
       '<li><a href="' +
-      links[i] +
-      '.html" class="menusColor">' +
-      menus[i] +
-      "</a></li>"
+        links[i] +
+        '.html" class="menusColor">' +
+        menus[i] +
+        "</a></li>"
     );
   }
 }
