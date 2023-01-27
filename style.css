@@ -114,10 +114,6 @@ li {
   color: black;
 }
 
-.menusColor {
-  color: white;
-}
-
 .catelist {
   display: flex;
   height: 40px;
@@ -125,7 +121,10 @@ li {
   width: 70%;
   align-items: center;
 }
-
-.catelistColor {
+/* 링크 */
+section ul li a:visited {
   color: black;
+}
+menu ul li a:visited {
+  color: white;
 }
