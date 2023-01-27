@@ -54,7 +54,7 @@ menu {
 
 section {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 nav {
@@ -129,4 +129,3 @@ li {
 .catelistColor {
   color: black;
 }
-가
