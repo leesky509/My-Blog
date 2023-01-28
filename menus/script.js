@@ -14,10 +14,11 @@
 */
 
 function GetShow() {
-  var con = document.getElementById("divcon");
-  if (con.style.display == "none") {
-    con.style.display = "block";
+  var fol = document.getElementById("fold");
+  if (fol.style.display == "none") {
+    fol.style.display = "block";
   } else {
-    con.style.display = "none";
+    fol.style.display = "none";
   }
 }
+var nums = [100, 200, 300, 400, 500];
