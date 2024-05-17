@@ -1,0 +1,9 @@
+.menu p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+.content h5 {
+    margin-top: 0;
+    text-align: center;
+}

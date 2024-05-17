@@ -1,0 +1,68 @@
+.menu p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+.content h5 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.classInfoText{
+  margin-top: 10px;
+  display: flex;
+  height: 20px;
+}
+
+.CIT1, .CIT2, .CIT3 {
+  flex: 1;
+  text-align: center;
+}
+
+.contentClass1 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.contentClass2 {
+  display: flex;
+  margin-top: 0px;
+}
+
+.classChange {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.contentClass2 button {
+  width: 60px;
+  height: 20px;
+  margin: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.classInfo1, .classInfo2, .classInfo3, .classInfo4, .classInfo5, .classInfo6, .classInfo7, .classInfo8, .classInfo9 {
+  flex: 1;
+  text-align: center;
+}
+
+.statTextClass {
+  flex: 0.2;
+}
+
+.currentClassStat, .masterClassStat, .totalClassStat {
+  flex: 1;
+  text-align: center;
+}
+
+.classChange button.selected {
+  background-color: black;
+  color: white;
+}

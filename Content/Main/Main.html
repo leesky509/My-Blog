@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="Main.css" />
+</head>
+<body>
+    <div class="content">
+        <div id="content1" class="menu">
+            <h5>메인</h5>
+                <div class="contentMain1">
+                    <div class="info1">
+                        <p>닉네임 : </p>
+                        <p>직업 : </p>
+                        <p>경험치 : </p>
+                        <p>레벨 : </p>
+                        <p>다음레벨업까지 : </p>
+                    </div>
+                    <div class="info1value">
+                        <p id="nickname"></p>
+                        <p id="currentClass"></p>
+                        <p id="currentEXP"></p>
+                        <p id="currentLV"></p>
+                        <p id="needEXP"></p>
+                    </div>                    
+                    <div class="info2">
+                        <p>마스터한 직업 : </p>
+                        <p>마스터한 스킬 : </p>
+                        <p>달성한 업적 : </p>
+                        <p>달성한 도감 : </p>
+                    </div>
+                    <div class="info2value">
+                        <p id="masterClass"></p>
+                        <p id="masterSkill"></p>
+                        <p id="doneAchieve"></p>
+                        <p id="doneBook"></p>
+                    </div>   
+               </div>
+                <div class="contentMain2">
+                    <div class="status1">
+                        <!-- HP -->
+                        <p>체력 : </p>
+                        <!-- PA -->
+                        <p>물리공격력 : </p>
+                        <!-- MA -->
+                        <p>마법공격력 : </p>
+                        <!-- DF -->
+                        <p>방어력 : </p>
+                    </div>
+                    <div class="status1value">
+                        <p id="HP"></p>
+                        <p id="PA"></p>
+                        <p id="MA"></p>
+                        <p id="DF"></p>
+                    </div>
+                    <div class="status2">
+                        <!-- AS -->
+                        <p>공격속도 : </p>
+                        <!-- EP -->
+                        <p>회피율 : </p>
+                        <!-- CP -->
+                        <p>치명타율 : </p>
+                        <!-- CD -->
+                        <p>치명타데미지 : </p>
+                    </div>
+                    <div class="status2value">
+                        <p id="AS"></p>
+                        <p id="EP"></p>
+                        <p id="CP"></p>
+                        <p id="CD"></p>
+                    </div>
+                </div>
+                <div class="contentMain3">
+                    <div class="statText">
+                        <!-- currentStat -->
+                        <p>보유스텟</p>
+                        <!-- STR -->
+                        <p>힘</p>
+                        <!-- DEX -->
+                        <p>민첩</p>
+                        <!-- INT -->
+                        <p>지능</p>
+                    </div>
+                    <div class="statButton">
+                        <p id="currnetStat"><br></p>
+                        <p>
+                            <button id="strPlus" class="buttonPlus">+</button>
+                            <button id="strMinus" class="buttonMinus">-</button>
+                            <button id="statFIx" class="statSet">확정</button>
+                        </p>
+                        <p>
+                            <button id="dexPlus" class="buttonPlus">+</button>
+                            <button id="dexMinus" class="buttonMinus">-</button>
+                            <button id="statCancle" class="statSet">취소</button>
+                        </p>
+                        <p>
+                            <button id="intPlus" class="buttonPlus">+</button>
+                            <button id="intMinus" class="buttonMinus">-</button>
+                            <button id="statInit" class="statSet">초기화</button>
+                        </p>
+                    </div>
+                    <div class="basicStat">
+                        <p>기본</p>
+                        <p id="basicStr"></p>
+                        <p id="basicDex"></p>
+                        <p id="basicInt"></p>
+                    </div>
+                    <div class="jobStat">
+                        <p>직업효과</p>
+                        <p id="jobStr"></p>
+                        <p id="jobDex"></p>
+                        <p id="jobInt"></p>
+                    </div>
+                    <div class="masterStat">
+                        <p>직업마스터</p>
+                        <p id="masterStr"></p>
+                        <p id="masterDex"></p>
+                        <p id="masterInt"></p>
+                    </div>
+                    <div class="equipStat">
+                        <p>장비</p>
+                        <p id="equipStr"></p>
+                        <p id="equipDex"></p>
+                        <p id="equipInt"></p>
+                    </div>
+                    <div class="totalStat">
+                        <p>합계</p>
+                        <p id="totalStr"></p>
+                        <p id="totalDex"></p>
+                        <p id="totalInt"></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
